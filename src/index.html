@@ -6,26 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-
+    <div class="wrapper">
+        <header>
+            网易云
+        </header>
+        <section>
+            <div>手机号登录</div>
+            <div>注册</div>
+            <span>游客试用</span>
+        </section>
+        <footer>
+            <p>其他登录方式</p>
+            <div>
+                <div>微信</div>
+                <div>QQ</div>
+                <div>微博</div>
+                <div>网易邮箱</div>
+            </div>
+        </footer>
+    </div>
 
     <script src="./js/ajax.js"></script>
     <script>
       
-        var opt = {
-            url: './datas/data.json',
-            success: function (data) {
-                console.log(data)
-            }
-        }
-        ajax(opt)
-        // ajax({
-        //     url:'./datas/data.json'
-        // }).then((data)=>{
-        //     console.log(data)
-        // })
+        
         
     </script>
 </body>
